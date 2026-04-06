@@ -10,10 +10,8 @@
 # 📊 GitHub Stats:
 <p align="center">
   <img src="https://github-readme-stats-five-pi-86.vercel.app/api?username=MansiSuryawanshi&show_icons=true&theme=dark&count_private=true&include_all_commits=true" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=MansiSuryawanshi&theme=dark" />
-  <br/>
-  <img src="https://github-readme-stats-five-pi-86.vercel.app/api/top-langs/?username=MansiSuryawanshi&layout=compact&theme=dark" />
+<img src="https://streak-stats.demolab.com?user=MansiSuryawanshi&theme=dark" />
+<img src="https://github-readme-stats-five-pi-86.vercel.app/api/top-langs/?username=MansiSuryawanshi&layout=compact&theme=dark" />
 </p>
 
 ---
