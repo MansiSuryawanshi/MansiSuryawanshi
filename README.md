@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-five-pi-86.vercel.app/api/top-langs/?username=MansiSuryawanshi&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats-five-pi-86.vercel.app/api/top-langs/?username=MansiSuryawanshi&layout=donut&theme=tokyonight" />
 </p>
 
 ---
