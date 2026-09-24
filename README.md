@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/ascii.svg" width="700" alt="Animated ASCII portrait of Mansi Suryawanshi"/>
+  <img src="./assets/ascii.svg" width="740" alt="Animated ASCII portrait of Mansi Suryawanshi"/>
 </div>
 
 > MS Computer Science student at USC with 3.5 years of software engineering experience.

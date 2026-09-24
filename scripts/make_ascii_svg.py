@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 RAMP = " .`:-=+*cs#%@"
-COLS = 105
+COLS = 130
 CHAR_W = 7.74
 FONT_SIZE = 12.9
 LINE_H = 15
@@ -28,26 +28,15 @@ def prepare(path: Path) -> Image.Image:
         sample.extend(color.crop(box).getdata())
     bg = tuple(sum(p[channel] for p in sample) / len(sample) for channel in range(3))
 
-    # Color-distance matte removes the neutral wall; the soft oval prevents
-    # unrelated edge details from entering the character grid.
+    # A color-distance matte removes the neutral studio wall while preserving
+    # the complete hair and jacket silhouette.
     mask = Image.new("L", (w, h), 0)
     px = mask.load()
     src = color.load()
-    cx, cy = w * 0.50, h * 0.48
-    rx, ry = w * 0.51, h * 0.55
-    feather = 0.10
     for y in range(h):
         for x in range(w):
-            d = ((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2
             distance = sum((src[x, y][c] - bg[c]) ** 2 for c in range(3)) ** 0.5
-            color_alpha = max(0, min(255, int((distance - 20) * 255 / 35)))
-            if d <= 1 - feather:
-                oval_alpha = 255
-            elif d < 1:
-                oval_alpha = int(255 * (1 - d) / feather)
-            else:
-                oval_alpha = 0
-            px[x, y] = min(color_alpha, oval_alpha)
+            px[x, y] = max(0, min(255, int((distance - 32) * 255 / 30)))
     image = color.convert("L")
     image = image.filter(ImageFilter.MedianFilter(3))
     image = ImageOps.autocontrast(image, cutoff=(1, 2))
@@ -114,7 +103,7 @@ def main() -> None:
     parser.add_argument("source", type=Path)
     parser.add_argument("destination", type=Path, nargs="?", default=Path("assets/ascii.svg"))
     parser.add_argument("--cols", type=int, default=COLS)
-    parser.add_argument("--gamma", type=float, default=1.12)
+    parser.add_argument("--gamma", type=float, default=0.94)
     args = parser.parse_args()
     lines = to_lines(prepare(args.source), args.cols, args.gamma)
     build_svg(lines, args.destination, args.cols)
