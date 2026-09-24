@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 RAMP = " .`:-=+*cs#%@"
-COLS = 118
+COLS = 105
 CHAR_W = 7.74
 FONT_SIZE = 12.9
 LINE_H = 15
@@ -18,22 +18,37 @@ FG_DARK = "#c9d1d9"
 
 
 def prepare(path: Path) -> Image.Image:
-    image = Image.open(path).convert("L")
-    # This source photo is already tightly framed. A soft oval removes the
-    # distracting corners while retaining the hair silhouette.
-    w, h = image.size
+    color = Image.open(path).convert("RGB")
+    w, h = color.size
+    # Estimate a plain studio background from the four corner patches.
+    sample = []
+    sw, sh = max(8, w // 12), max(8, h // 12)
+    for box in ((0, 0, sw, sh), (w - sw, 0, w, sh),
+                (0, h - sh, sw, h), (w - sw, h - sh, w, h)):
+        sample.extend(color.crop(box).getdata())
+    bg = tuple(sum(p[channel] for p in sample) / len(sample) for channel in range(3))
+
+    # Color-distance matte removes the neutral wall; the soft oval prevents
+    # unrelated edge details from entering the character grid.
     mask = Image.new("L", (w, h), 0)
     px = mask.load()
+    src = color.load()
     cx, cy = w * 0.50, h * 0.48
     rx, ry = w * 0.51, h * 0.55
     feather = 0.10
     for y in range(h):
         for x in range(w):
             d = ((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2
+            distance = sum((src[x, y][c] - bg[c]) ** 2 for c in range(3)) ** 0.5
+            color_alpha = max(0, min(255, int((distance - 20) * 255 / 35)))
             if d <= 1 - feather:
-                px[x, y] = 255
+                oval_alpha = 255
             elif d < 1:
-                px[x, y] = int(255 * (1 - d) / feather)
+                oval_alpha = int(255 * (1 - d) / feather)
+            else:
+                oval_alpha = 0
+            px[x, y] = min(color_alpha, oval_alpha)
+    image = color.convert("L")
     image = image.filter(ImageFilter.MedianFilter(3))
     image = ImageOps.autocontrast(image, cutoff=(1, 2))
     image = ImageEnhance.Contrast(image).enhance(1.18)
