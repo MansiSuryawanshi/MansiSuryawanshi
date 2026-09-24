@@ -1,27 +1,43 @@
-# 💫 About Me:
-👩‍💻 I am a Master’s student in Computer Science at USC with 3.5 years of experience building backend systems using Java, Spring Boot, and AWS.<br><br>🚀 Currently working on AI driven applications in computer vision and NLP, including projects like a Blind Assistant app and automated attendance analytics system.<br><br>🤝 Open to collaborating on impactful AI, ML, and backend engineering projects that solve real world problems.<br><br>🔍 Actively seeking internship opportunities in Software Engineering and AI for Summer 2026.<br><br>📚 Currently learning advanced NLP, system design, and scalable ML systems.<br><br>💬 Ask me about backend engineering, REST APIs, microservices, or building ML powered applications.<br><br>⚡ Fun fact: I care more about building things that actually work in real life than just adding buzzwords to a resume.
+<div align="right">
 
+<img src="./assets/banner.svg" width="880" alt="Mansi Suryawanshi — software engineering, backend systems, and computer vision"/>
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/mansi-07.bsky.social) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/YtZXGrr2) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mansi.suryawanshi_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mansi-suryawanshi/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ms.mansi.suryawanshi@gmail.com) 
+<a href="https://www.linkedin.com/in/mansi-suryawanshi/">linkedin</a> ·
+<a href="https://mansi-suryawanshi.vercel.app/">portfolio</a> ·
+<a href="mailto:ms.mansi.suryawanshi@gmail.com">email</a>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-# 📊 GitHub Stats:
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats-five-pi-86.vercel.app/api?username=MansiSuryawanshi&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" />
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MansiSuryawanshi&theme=tokyonight" />
-</p>
+<div align="center">
+  <img src="./assets/ascii.svg" width="860" alt="Animated ASCII portrait of Mansi Suryawanshi"/>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats-five-pi-86.vercel.app/api/top-langs/?username=MansiSuryawanshi&layout=donut&theme=tokyonight" />
-</p>
+> MS Computer Science student at USC with 3.5 years of software engineering experience.
+> I build reliable backend systems and applied AI that can survive outside a demo.
 
----
-[![](https://visitcount.itsvg.in/api?id=MansiSuryawanshi&icon=0&color=0)](https://visitcount.itsvg.in)
+My work sits where software engineering meets intelligent systems: Java and Spring Boot services, cloud infrastructure, computer vision, and AI products designed around real users. I am currently exploring full-time software engineering, backend, and applied AI opportunities.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+`python` &nbsp; `java` &nbsp; `c++` &nbsp; `typescript` &nbsp; `spring boot` &nbsp; `react` &nbsp; `aws` &nbsp; `docker` &nbsp; `postgresql` &nbsp; `git` &nbsp; `linux`
+
+### SELECTED WORK
+
+[**StudyBuddy**](https://github.com/MansiSuryawanshi/StudyBuddy) · `react, typescript, node.js, claude api`  
+An adaptive learning system that evaluates reasoning depth, detects conceptual gaps, and challenges students with targeted follow-up questions.
+
+[**FoundPose research**](https://github.com/MansiSuryawanshi) · `python, c++, dinov2, faiss, opencv`  
+Adapted a 6D pose-estimation pipeline to custom physical objects using RGB images, segmentation masks, camera calibration, CAD models, feature retrieval, and RANSAC-PnP.
+
+[**MailCompanion**](https://github.com/MansiSuryawanshi/MailCompanion) · `python, nlp`  
+An intelligent email companion focused on reducing repetitive work and making communication easier to manage.
+
+[**Automated Attendance**](https://github.com/MansiSuryawanshi/Attendence-System-Using-Automated-Face-Recognition-python) · `python, computer vision`  
+A face-recognition workflow for automated attendance capture and reporting.
+
+<br/>
+
+<img src="./assets/activity.svg" width="880" alt="Recently updated public repositories"/>
+<img src="./assets/languages.svg" width="880" alt="Languages used across public repositories"/>
+
+<sub>Every graphic in this README is stored in this repository. The portrait is generated from a photo using a monochrome character ramp and animates with SVG SMIL; the repository graphics refresh daily using GitHub Actions.</sub>

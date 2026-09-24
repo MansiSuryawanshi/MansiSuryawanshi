@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="116" viewBox="0 0 880 116" role="img" aria-labelledby="title desc">
+  <title id="title">Mansi Suryawanshi</title>
+  <desc id="desc">Software engineer building reliable backend and intelligent systems.</desc>
+  <style>
+    .name{font:700 31px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#24292f;letter-spacing:1px}
+    .role{font:14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#57606a}
+    .line{stroke:#d0d7de}
+    @media(prefers-color-scheme:dark){.name{fill:#f0f6fc}.role{fill:#8b949e}.line{stroke:#30363d}}
+  </style>
+  <line class="line" x1="0" y1="94" x2="880" y2="94"/>
+  <text class="name" x="0" y="42">MANSI SURYAWANSHI</text>
+  <text class="role" x="1" y="72">SOFTWARE ENGINEERING · BACKEND SYSTEMS · COMPUTER VISION</text>
+</svg>
